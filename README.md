@@ -13,7 +13,7 @@ User need to enter a note title and note text before they are able to save their
 User can press on existing note and it will pop up on to the right
 
 ## Links
-Link to Deployed Github Page: <a href="https://alexurielcontreras.github.io/note-app/">Note App</a><br>
+Link to Deployed Heroku page: <a href="https://ancient-woodland-90728.herokuapp.com/">Note App</a><br>
 Link to Github Repo: <a href="https://github.com/AlexUrielContreras/note-app">GitHub Repo</a>
 
 ## Technology's Used
