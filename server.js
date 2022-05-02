@@ -4,7 +4,12 @@ const PORT = process.env.PORT || 3001
 const app = express();
 const htmlRoutes = require('./routes/htmlRoutes');
 
-app.use('/', htmlRoutes)
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+// we include the whole folder so that the styles.css get applied
+app.use(express.static('public'));
+
+app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
     console.log(`Now listening on port: ${PORT}`)
